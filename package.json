@@ -1,0 +1,30 @@
+{
+  "name": "Certificate-Generator-NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "downloadjs": "^1.4.7",
+    "pdf-lib": "^1.17.1",
+    "text2png": "^2.3.0",
+    "ultimate-text-to-image": "^1.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/babel-core": "^6.25.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
